@@ -1,29 +1,34 @@
+# 🏎️ Birbuçuk Formula Yazılım - Bootcamp 2025
 
-# 🏁 FSAE Yazılım Ekibi - Bootcamp 2025
+Bu repo, **Birbuçuk Formula** takımının aday mühendisleri için hazırlanan **Eğitim ve Görev Takip** sistemidir.
 
-Bu repo, **birbucukformula** yazılım ekibi aday mühendisleri için hazırlanan eğitim ve ödev takip sistemidir.
+## 🎯 Vizyon ve Amaç
+Amacımız; sıfırdan başlayarak bir Formula Student aracını kodlayacak (Gömülü C, STM32, CAN Bus) ve geleceğin otonom sistemlerini tasarlayacak yetkinliğe ulaşmaktır. Burası sadece kod yazmayı değil, **Mühendislik Disiplinini** öğrendiğimiz yerdir.
 
-## 🎯 Amaç
-Sıfırdan başlayarak bir Formula Student aracını kodlayacak seviyeye (Gömülü C, STM32, CAN Bus) gelmek.
+## 📂 Repo Yapısı
+Bu repo en sade haliyle iki ana klasörden oluşur:
 
-## 📂 Yapı
-* **01-Lecture-Notes:** Haftalık ders notları ve örnek kodlar.
-* **02-Assignments:** Yapmanız gereken görevler ve son teslim tarihleri.
-* **03-Submissions:** Ödevlerinizi yükleyeceğiniz klasör.
+* **Tasks:** Yapmanız gereken haftalık görevler, teknik dokümanlar ve detaylar burada yayınlanır. (Örn: `Tasks/Task-00...`)
+* **Submissions:** Görevlerinizi yükleyeceğiniz havuzdur. Herkes kendi adına bir klasör açarak çalışır.
 
-## 📝 Nasıl Ödev Teslim Ederim? (Git Flow)
-**DİKKAT:** Dosya yükleme (Upload files) butonunu kullanmak YASAKTIR. Aşağıdaki adımları izleyin:
+---
 
-1.  Bu repoyu sağ üstteki butondan **Fork** edin.
-2.  Fork ettiğiniz repoyu bilgisayarınıza indirin (`git clone`).
-3.  `03-Submissions` altında **Adınız-Soyadınız** şeklinde bir klasör oluşturun.
-4.  Ödevinizi bu klasöre ekleyin.
-5.  Değişiklikleri gönderin (`git commit` & `git push`).
-6.  Ana repoya **Pull Request (PR)** açın.
+## 📝 Nasıl Ödev Teslim Ederim? (Workflow)
+**DİKKAT:** Web arayüzünden "Upload files" butonunu kullanmak yasaktır. Gerçek bir yazılımcı gibi **Git** kullanmalısınız:
 
-## 🚫 Kurallar
-1.  Kopyala-Yapıştır kod yasaktır. Yakalanan aday programdan çıkarılır.
-2.  Commit mesajlarınız açıklayıcı olmalıdır (Örn: "Hafta 1 ödevi eklendi" ✅, "adsadsa" ❌).
-3.  Son teslim saatinden sonraki PR'lar kabul edilmez.
+1.  ↗️ Sağ üstteki butondan bu repoyu **Fork** edin (Kendi hesabınıza kopyalayın).
+2.  ⬇️ Fork ettiğiniz repoyu bilgisayarınıza indirin (`git clone`).
+3.  📂 `Submissions` klasörü altında **Adiniz-Soyadiniz** (Türkçe karakter yok, boşluk yerine tire) şeklinde bir klasör oluşturun.
+4.  💾 Ödev dosyanızı (PDF veya Kod) ilgili görevin klasörüne yükleyin.
+5.  ✅ Değişiklikleri kaydedin ve gönderin (`git commit` & `git push`).
+6.  🔀 Kendi reponuzdan ana repoya **Pull Request (PR)** açın.
 
-Başarılar! 🏎️
+---
+
+## 🚫 Anayasa (Kurallar)
+1.  **Kopyala-Yapıştır Yasak:** Kodun veya sunumun mantığını anlamadan yapıştırmak, takımdan ihraç sebebidir.
+2.  **Yapay Zeka Politikası:** AI araçlarını (ChatGPT, Claude vb.) kullanmak serbesttir ancak **yasak savmak için değil, öğrenmek için** kullanılmalıdır. Çıktıyı kontrol etmeden atan sorumlu tutulur.
+3.  **Profesyonellik:** Commit mesajlarınız açıklayıcı olmalıdır. (Örn: `feat: Task-00 sunumu eklendi` ✅ | `dosya attim` ❌).
+4.  **Format:** Aksi belirtilmedikçe sunumlar **PDF** formatında yüklenmelidir.
+
+Başarılar! Geleceğin yarış mühendisleri. 🏁
